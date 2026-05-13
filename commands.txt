@@ -1,0 +1,20 @@
+============================================================
+  Conversational AI Chatbot — Run Commands
+============================================================
+
+1. INSTALL DEPENDENCIES (run once):
+   pip install -r requirements.txt
+
+2. START BACKEND (Terminal 1):
+   python -m uvicorn app.main:app --reload --port 8000
+
+3. START FRONTEND (Terminal 2):
+   python -m streamlit run frontend.py
+
+============================================================
+  URLs
+============================================================
+- Frontend (Streamlit UI) : http://localhost:8501
+- Backend API             : http://localhost:8000
+- Swagger Docs            : http://localhost:8000/docs
+- Health Check            : http://localhost:8000/health
